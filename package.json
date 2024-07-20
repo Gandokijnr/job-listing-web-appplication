@@ -1,0 +1,29 @@
+{
+  "name": "jobnavigator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch src/db.json --port 3000"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.0.0",
+    "axios": "^1.7.2",
+    "json-server": "^1.0.0-beta.1",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.0",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "vite": "^5.3.1"
+  }
+}
